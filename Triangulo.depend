@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1644955607 source:c:\users\usuario\documents\proyectos\triangulo\main.cpp
+	<iostream>
+	"poligono.h"
+
+1644956284 c:\users\usuario\documents\proyectos\triangulo\poligono.h
+	<math.h>
+

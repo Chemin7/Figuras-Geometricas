@@ -30,7 +30,6 @@ Poligono::Poligono()
 
 }
 
-
 void Poligono::setLados(int l)
 {
     this->lados=l;

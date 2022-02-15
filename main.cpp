@@ -1,6 +1,8 @@
 #include <iostream>
 #include "poligono.h"
 #include "triangulo.h"
+#include "rectangulo.h"
+#include "cuadrado.h"
 
 using namespace std;
 
@@ -8,20 +10,6 @@ using namespace std;
  calcular apotema
  **/
 
-class Cuadrado{
-private:
-    double lado;
-    double area;
-public:
-    Cuadrado();
-
-    void setLado(double);
-    double getLado();
-    double getArea();
-
-    void calcularArea();
-
-};
 
 int main()
 {
@@ -30,12 +18,17 @@ int main()
 
     Poligono p;
     Triangulo t;
-    do{
+
+
+    /**do{
         system("cls");
         cout<<"Ingerese la altura: ";
         cin>>altura;
         cout<<"Ingrese la base: ";
         cin>>base;
+
+        if(is)()
+         stoi(str_base);
         t.setAltura(altura);
         t.setBase(base);
         t.calcularArea();
@@ -44,6 +37,6 @@ int main()
         cout<<"continuar si-1 no-2: ";
         cin>>opc;
 
-    }while(opc != 2);
+    }while(opc != 2);**/
     return 0;
 }

@@ -26,14 +26,14 @@ Rectangulo::Rectangulo()
 }
 
 
-void Rectangulo::setBase(double)
+void Rectangulo::setBase(double b)
 {
-    return this->base;
+     this->base = b;
 }
 
 void Rectangulo::setAltura(double)
 {
-    return this->altura;
+     this->altura;
 }
 
 double Rectangulo::getBase()

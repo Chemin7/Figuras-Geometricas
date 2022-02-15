@@ -6,3 +6,19 @@
 1644956284 c:\users\usuario\documents\proyectos\triangulo\poligono.h
 	<math.h>
 
+1644956889 source:c:\users\usuario\documents\proyectos\figurasgeo\main.cpp
+	<iostream>
+	"poligono.h"
+	"triangulo.h"
+	"rectangulo.h"
+	"cuadrado.h"
+
+1644956284 c:\users\usuario\documents\proyectos\figurasgeo\poligono.h
+	<math.h>
+
+1644956449 c:\users\usuario\documents\proyectos\figurasgeo\triangulo.h
+
+1644956989 c:\users\usuario\documents\proyectos\figurasgeo\rectangulo.h
+
+1644956889 c:\users\usuario\documents\proyectos\figurasgeo\cuadrado.h
+

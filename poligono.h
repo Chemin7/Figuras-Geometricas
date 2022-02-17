@@ -1,17 +1,21 @@
 #ifndef POLIGONO_H_INCLUDED
 #define POLIGONO_H_INCLUDED
-#include <math.h>
+#define _USE_MATH_DEFINES
+#include <cmath>
 
 using namespace std;
 
 class Poligono{
 private:
+
+    double longLado;
     double apotema;
     double perimetro;
-    double longLado;
     int lados;
     double area;
 public:
+
+
     Poligono();
 
     void setLados(int);
@@ -42,7 +46,7 @@ void Poligono::setLongLado(double l)
 
 double Poligono::getArea()
 {
-    return this->area;
+    return area;
 }
 
 void Poligono::calcularPerimetro()
@@ -52,12 +56,16 @@ void Poligono::calcularPerimetro()
 
 void Poligono::calcularApotema()
 {
-    this->apotema = longLado/(2*tan(180/lados));
+
+    float teta = (180/lados)* M_PI/180;
+
+    this->apotema = longLado/(2*tan(teta));
 }
 
 void Poligono::calcularArea()
 {
-    this->area=1/2*perimetro*apotema;
+    this->area = 0.5* perimetro * apotema;
+
 }
 
 #endif // POLIGONO_H_INCLUDED

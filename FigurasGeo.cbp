@@ -36,6 +36,7 @@
 		<Unit filename="poligono.h" />
 		<Unit filename="rectangulo.h" />
 		<Unit filename="triangulo.h" />
+		<Unit filename="validate.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

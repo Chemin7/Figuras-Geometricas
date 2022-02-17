@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1645118684 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\main.cpp
+	<iostream>
+	<string>
+	"poligono.h"
+	"triangulo.h"
+	"rectangulo.h"
+	"cuadrado.h"
+	"validate.h"
+
+1645073718 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\poligono.h
+	<cmath>
+
+1645058476 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\triangulo.h
+
+1645062507 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\rectangulo.h
+
+1645073512 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\cuadrado.h
+
+1645062000 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 5\figuras-geometricas\validate.h
+	<string>
+	<iostream>
+

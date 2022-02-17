@@ -18,5 +18,24 @@ public:
 Cuadrado::Cuadrado(){
 }
 
+void Cuadrado::setLado(double l)
+{
+    this->lado=l;
+}
+
+double Cuadrado::getLado()
+{
+    return lado;
+}
+
+double Cuadrado::getArea()
+{
+    return area;
+}
+
+void Cuadrado::calcularArea()
+{
+    area=lado*lado;
+}
 
 #endif // CUADRADO_H_INCLUDED

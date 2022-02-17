@@ -31,9 +31,9 @@ void Rectangulo::setBase(double b)
      this->base = b;
 }
 
-void Rectangulo::setAltura(double)
+void Rectangulo::setAltura(double a)
 {
-     this->altura;
+     this->altura=a;
 }
 
 double Rectangulo::getBase()

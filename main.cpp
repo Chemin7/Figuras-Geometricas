@@ -90,15 +90,11 @@ void menu() {
                 cin>>lados;
                 cout<<"Ingresa el tamaño de el lado del poligono: ";
                 cin>>longLad;
+                cout<<endl;
 
-                expr1= (!( isInt(lados) and isReal(longLad) ));
-                expr2  = (stoi(lados) >= 5 && stoi(lados) <= 10);
-
-                cout<<boolalpha<<"first: "<<expr1<<endl;
-                cout<<boolalpha<<"second: "<<!expr2<<endl;
            } while( !( isInt(lados) and isReal(longLad)) or !expr2  )  ;
 
-            cout<<stoi(lados)<<endl;
+
             p.setLados(stoi(lados));
             p.setLongLado(stof(longLad));
 

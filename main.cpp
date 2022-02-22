@@ -8,9 +8,7 @@
 
 using namespace std;
 
-/**poligono 5 a 10
- calcular apotema
- **/
+
 void menu() {
     int opc;
     Cuadrado c;
@@ -91,8 +89,7 @@ void menu() {
                 cout<<"Ingresa el tamaño de el lado del poligono: ";
                 cin>>longLad;
                 cout<<endl;
-
-           } while( !( isInt(lados) and isReal(longLad)) or !expr2  )  ;
+           } while( !( isInt(lados) and isReal(longLad)) or !(stoi(lados) >= 5 && stoi(lados) <= 10) )  ;
 
 
             p.setLados(stoi(lados));

@@ -21,3 +21,30 @@
 	<string>
 	<iostream>
 
+1645492487 source:c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\main.cpp
+	<iostream>
+	<string>
+	"poligono.h"
+	"triangulo.h"
+	"rectangulo.h"
+	"cuadrado.h"
+	"validate.h"
+
+1645505821 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\poligono.h
+	<cmath>
+	"figura.h"
+
+1645504964 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\figura.h
+
+1645505266 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\triangulo.h
+	"figura.h"
+
+1645505821 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\rectangulo.h
+	"figura.h"
+
+1645492487 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\cuadrado.h
+
+1645492487 c:\users\user\onedrive - universidad de guadalajara\2do sem\sed1\actividad 6\figuras-geometricas\validate.h
+	<string>
+	<iostream>
+

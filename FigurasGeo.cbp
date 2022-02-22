@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="figura.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="poligono.h" />
 		<Unit filename="rectangulo.h" />

@@ -2,17 +2,18 @@
 #define POLIGONO_H_INCLUDED
 #define _USE_MATH_DEFINES
 #include <cmath>
+#include "figura.h"
 
 using namespace std;
 
-class Poligono{
+class Poligono:public Figura{
 private:
 
     double longLado;
     double apotema;
     double perimetro;
     int lados;
-    double area;
+
 public:
 
 
@@ -21,7 +22,6 @@ public:
     void setLados(int);
     void setLongLado(double);
 
-    double getArea();
 
     void calcularPerimetro();
     void calcularApotema();
@@ -42,11 +42,6 @@ void Poligono::setLados(int l)
 void Poligono::setLongLado(double l)
 {
     this->longLado= l;
-}
-
-double Poligono::getArea()
-{
-    return area;
 }
 
 void Poligono::calcularPerimetro()
